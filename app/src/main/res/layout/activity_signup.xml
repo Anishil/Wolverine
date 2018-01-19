@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/signup"
+    android:orientation="vertical"
+    tools:context="com.example.anishilvjose.wolverine.signup">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#fff"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textSize="26dp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="18dp">
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#fff"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:textColorHint="#ccc9c9"
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="105dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#fff"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#ccc9c9" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/vehmod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Vehicle Model"
+            android:backgroundTint="#fff"
+            android:textColorHint="#ccc9c9"/>
+        <EditText
+            android:id="@+id/vehno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Vehicle Number"
+            android:backgroundTint="#fff"
+            android:textColorHint="#ccc9c9"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/vehcol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Vehicle Color"
+            android:backgroundTint="#fff"
+            android:textColorHint="#ccc9c9"/>
+        <EditText
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#fff"
+            android:ems="10"
+            android:hint="Contact no."
+            android:inputType="phone"
+            android:textColorHint="#ccc9c9" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/pass1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#fff"
+            android:ems="10"
+            android:hint="Choose a Password"
+            android:inputType="textPassword"
+            android:textColorHint="#ccc9c9"
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <EditText
+            android:id="@+id/pass2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#fff"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColorHint="#ccc9c9"
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="244dp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:background="#dca450"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>

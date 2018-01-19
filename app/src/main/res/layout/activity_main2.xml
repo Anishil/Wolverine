@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anishilvjose.wolverine.Main2Activity"
+    android:background="@drawable/road1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Welcome"
+        android:textSize="30dp"
+        android:textColor="#ffff"/>
+
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="   Username"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:backgroundTint="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="  Password"
+        android:textColorHint="#fff"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:textColorHighlight="#fff"
+        android:backgroundTint="@android:color/white"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#4e5ce6"
+        android:text="L O G I N"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:text="Sign Up"
+    android:layout_gravity="right"
+    android:id="@+id/t1"
+    android:textColor="#fff"
+    />
+
+</LinearLayout>
